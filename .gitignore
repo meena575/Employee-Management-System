@@ -1,0 +1,13 @@
+# Ignore virtual environment directories except the main app files
+Lib/
+etc/
+share/
+pyvenv.cfg
+Scripts/activate
+Scripts/activate.bat
+Scripts/Activate.ps1
+Scripts/pip*
+Scripts/python*
+Scripts/wheel*
+__pycache__/
+*.py[cod]
