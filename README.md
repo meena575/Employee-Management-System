@@ -12,7 +12,9 @@ The Employee Management System (EMS) is a web application designed to manage emp
 - **Attendance Tracking:** Track employee attendance with check-in and check-out times.
 - **Leave Management:** Handle employee leave requests with status tracking.
 ## Project Demo Video
-<img src="https://drive.google.com/file/d/1inVt-L9cpTl90Vgwbug2NNAEFH-O8ATy/view?usp=drive_link">
+[Watch the video](https://drive.google.com/uc?export=view&id=1inVt-L9cpTl90Vgwbug2NNAEFH-O8ATy)
+
+<img src="[https://drive.google.com/file/d/1inVt-L9cpTl90Vgwbug2NNAEFH-O8ATy/view?usp=drive_link](https://drive.google.com/file/d/1inVt-L9cpTl90Vgwbug2NNAEFH-O8ATy/view?usp=sharing)">
 ## Technologies Used
 - **Backend:** MySQL, SQL, Python
 - **Frontend:** Streamlit
