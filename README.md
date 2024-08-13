@@ -69,7 +69,7 @@ Follow these steps to set up and run the project:
 6. **Access the application:**
 
    The application will open in your default web browser. If not, navigate to http://localhost:8501 in your       browser.
-## Usage
+## Features
 - **Manage Employees:** Add, update, view, and delete employee records.
 - **Track Attendance:** Log and monitor employee attendance.
 - **Evaluate Performance:** Conduct and record employee performance evaluations.
