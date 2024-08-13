@@ -17,4 +17,4 @@ The Employee Management System (EMS) is a web application designed to manage emp
 - **Frontend:** Streamlit
 
 ## Database Schema
-
+<img src="schema.png">
