@@ -44,7 +44,7 @@ Follow these steps to set up and run the project:
 3. **Install the Required Dependencies:**
 
    ```bash
-   pip install -r requirements.txt
+      pip install -r requirements.txt
 4. **Set Up the Database:**
 
    Create the database and tables using the provided SQL schema in your MySQL environment.
@@ -54,15 +54,23 @@ Follow these steps to set up and run the project:
       USE your_database_name;
       
       -- Drop and recreate tables if needed
-      DROP TABLE IF EXISTS employees;
-      CREATE TABLE employees (
-          id INT AUTO_INCREMENT PRIMARY KEY,
-          name VARCHAR(255),
-          position VARCHAR(255),
-          department VARCHAR(255),
-          hire_date DATE
-      );
+      DROP TABLE IF EXISTS Departments;
+      Table Departments {
+       Department_ID VARCHAR [pk]
+       DepartmentName VARCHAR
+       DepartmentHead_ID VARCHAR
+       DescriptionS VARCHAR
+      }
 5. **Run the Application:**
 
    ```bash
       streamlit run scripts/app.py
+6. **Access the application:**
+
+   The application will open in your default web browser. If not, navigate to http://localhost:8501 in your       browser.
+## Usage
+- **Manage Employees:** Add, update, view, and delete employee records.
+- **Track Attendance:** Log and monitor employee attendance.
+- **Evaluate Performance:** Conduct and record employee performance evaluations.
+- **Manage Leave Requests:** Submit and approve leave requests.
+- **Record Training Sessions:** Track employee training sessions.
