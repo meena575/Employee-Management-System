@@ -18,3 +18,21 @@ The Employee Management System (EMS) is a web application designed to manage emp
 
 ## Database Schema
 <img src="schema.png">
+
+## Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+- **Python 3.x**: [Download Python](https://www.python.org/downloads/)
+- **MySQL Server**: [Download MySQL](https://dev.mysql.com/downloads/mysql/)
+- **Streamlit**: [Streamlit Documentation](https://docs.streamlit.io)
+
+## Installation and Setup
+
+Follow these steps to set up and run the project:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/EMS.git
+   cd EMS
