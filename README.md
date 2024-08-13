@@ -2,7 +2,7 @@
 
 ## Overview
 The Employee Management System (EMS) is a web application designed to manage employee records, track attendance, monitor performance, handle leave requests, and maintain training records. The backend is built using MySQL and Python, while the frontend is developed with Streamlit.
-
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSz-l4jEaioUmplfsHHWSkIVzdljJURHQfx_zIgUXJrHhURbnYG_ctj_ywdBZ06dSbRi21EnqsRn0qvEYk71qbFN_Q5BltcivQzhl5SludhY2KXGStxDaikrQzqrv6YCiEZTRph8rY1Cw/s600/Employee+Management+System+Project.webp">
 ## Features
 - **Employee Management:** Add, view, and manage employee details such as personal information, job title, department, and salary.
 - **Department Management:** Manage departments and assign department heads.
