@@ -36,3 +36,33 @@ Follow these steps to set up and run the project:
    ```bash
    git clone https://github.com/yourusername/EMS.git
    cd EMS
+2. **Set Up the Virtual Environment:**
+
+   ```bash
+      python -m venv venv
+      source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+3. **Install the Required Dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+4. **Set Up the Database:**
+
+   Create the database and tables using the provided SQL schema in your MySQL environment.
+
+   ```sql
+      -- Use the correct database
+      USE your_database_name;
+      
+      -- Drop and recreate tables if needed
+      DROP TABLE IF EXISTS employees;
+      CREATE TABLE employees (
+          id INT AUTO_INCREMENT PRIMARY KEY,
+          name VARCHAR(255),
+          position VARCHAR(255),
+          department VARCHAR(255),
+          hire_date DATE
+      );
+5. **Run the Application:**
+
+   ```bash
+      streamlit run scripts/app.py
